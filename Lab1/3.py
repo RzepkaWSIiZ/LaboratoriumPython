@@ -24,3 +24,4 @@ elif operacja == 5:
 else:
     print(f'Podano niewłaściwy numer operacji: {operacja}')
 
+
