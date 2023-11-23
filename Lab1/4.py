@@ -12,3 +12,4 @@ print(f'x2 wynosi: {(-b + math.sqrt(delta)) / 2*a }')
 
 
 
+
