@@ -7,3 +7,4 @@ if litera.isalpha():
         print(f'Wprowadzona litera {litera} jest duża!')
 else:
     print(f'{litera} To nie jest litera')
+
