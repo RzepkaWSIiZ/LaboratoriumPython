@@ -72,3 +72,4 @@ cena_paliwa = 6.5
 zuzycie_paliwa = (spalanie/100)*droga
 print(f'Przewidywane zużycie paliwa: {zuzycie_paliwa}')
 print(f'Szacowany koszt podróży wynosi {cena_paliwa*zuzycie_paliwa}')
+
