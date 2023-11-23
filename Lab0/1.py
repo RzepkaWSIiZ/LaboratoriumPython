@@ -1,3 +1,4 @@
+
 """
 Zadanie 1
 
@@ -27,10 +28,22 @@ b = int(input('Proszę podać bok b prostokąta: '))
 print(f'Pole prostokąta wynosi: {a*b}')
 print(f'Obwód prostokąta wynosi: {2*a + 2*b}')
 
-"""
 #Zadanie 4.0
 
 droga = float(input('Podaj droge pokonaną przez samochodód w km: '))
+spalanie = float(input('Podaj spalanie samochodu l/100km: '))
+
+cena_paliwa = 6.5
+
+zuzycie_paliwa = (spalanie/100)*droga
+print(f'Przewidywane zużycie paliwa: {zuzycie_paliwa}')
+print(f'Szacowany koszt podróży wynosi {cena_paliwa*zuzycie_paliwa}')
+
+"""
+import random
+#Zadanie 4.1
+
+droga = random.randint(1,100000)
 spalanie = float(input('Podaj spalanie samochodu l/100km: '))
 
 cena_paliwa = 6.5
