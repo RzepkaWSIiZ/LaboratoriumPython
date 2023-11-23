@@ -21,5 +21,10 @@ str(12.4)   ---> '12.4'
 bool(0)     ---> False
 
 """
+#Zadanie 3
 
+a = int(input('Proszę podać bok a prostokąta: '))
+b = int(input('Proszę podać bok b prostokąta: '))
 
+print(f'Pole prostokąta wynosi: {a*b}')
+print(f'Obwód prostokąta wynosi: {2*a + 2*b}')
