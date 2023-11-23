@@ -11,6 +11,15 @@ type(11%2)     ---> <class 'int'>
 type(2**10)    ---> <class 'int'>
 type(8**(1/3)) ---> <class 'float'>
 
+
+Zadanie 2
+
+int(3.0)    ---> 3
+float(3.0)  ---> 3.0
+float("3")  ---> 3.0
+str(12.4)   ---> '12.4'
+bool(0)     ---> False
+
 """
 
 
