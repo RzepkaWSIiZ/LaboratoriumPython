@@ -23,3 +23,4 @@ elif operacja == 5:
     print(f'Wynik: {a**b}')
 else:
     print(f'Podano niewłaściwy numer operacji: {operacja}')
+
