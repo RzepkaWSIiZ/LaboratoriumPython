@@ -11,3 +11,4 @@ print(f'x1 wynosi: {(-b - math.sqrt(delta)) / 2*a }')
 print(f'x2 wynosi: {(-b + math.sqrt(delta)) / 2*a }')
 
 
+
